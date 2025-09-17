@@ -52,14 +52,35 @@ Contains details about sales representatives and their respective regions.
 
 ---
 
-## Problem Statements Solved with Steps  
+## 1. Key Performance Indicators (KPIs)  
 
-### **1. Key Performance Indicators (KPIs)**  
-> **Objective:** Calculate and display **Total Sales, Total Profit, Total Quantity, Number of Orders, and Profit Margin** dynamically.  
+**Objective:** Calculate and display **Total Sales, Total Profit, Total Quantity, Number of Orders, and Profit Margin** dynamically.  
 
 **Steps:**  
+
 1. Import the **Orders Table** into Excel using Power Query.  
-2. Create calculated columns:  
-   ```excel
-   Profit Margin = Profit / Sales
-   Total Orders = COUNT(Order ID)
+2. Create calculated columns for:  
+   - `Profit Margin = Profit / Sales`  
+   - `Total Orders = Count of Order ID`  
+3. Use Excel formulas to calculate:  
+   - `Total Sales = SUM(Sales)`  
+   - `Total Profit = SUM(Profit)`  
+   - `Total Quantity = SUM(Quantity)`  
+4. Build a dynamic KPI table and use symbols to enhance visual appeal.  
+
+<img width="933" height="137" alt="image" src="https://github.com/user-attachments/assets/7bca3e0f-41cc-43b6-8778-ccf803531bb5" />
+
+---
+
+## 2. Sales and Profit Analysis  
+
+**Objective:** Visualize sales and profit trends over time to identify patterns.  
+
+**Steps:**  
+
+1. Create a **Pivot Table** with `Order Date` grouped by Year and Month.  
+2. Add `Sales` and `Profit` as values.  
+3. Create a **Line Chart** to display trends for Sales and Profit.  
+4. Apply **Slicers** to filter by category, market, or region dynamically.  
+
+
