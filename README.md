@@ -81,6 +81,72 @@ Contains details about sales representatives and their respective regions.
 1. Create a **Pivot Table** with `Order Date` grouped by Year and Month.  
 2. Add `Sales` and `Profit` as values.  
 3. Create a **Line Chart** to display trends for Sales and Profit.  
-4. Apply **Slicers** to filter by category, market, or region dynamically.  
+4. Apply **Slicers** to filter by category, market, or region dynamically.
+
+---
+
+## 5. Sales by Country  
+
+**Objective:** Analyze sales performance by country.  
+
+**Steps:**  
+
+1. Create a **Pivot Table** with `Country` as rows and `Sales` as values.  
+2. Sort the table in **descending order** of `Sales`.  
+3. Use **Conditional Formatting** or a **Heatmap** to highlight top-performing countries.  
+
+---
+
+## 6. Top 5 Subcategories  
+
+**Objective:** Identify the top 5 performing subcategories.  
+
+**Steps:**  
+
+1. Create a **Pivot Table** with `Sub-Category` as rows and `Sales` as values.  
+2. Sort the table in **descending order** of `Sales`.  
+3. Apply a filter to display the **Top 5 Sub-Categories**.  
+4. Use a **Column Chart** to visualize results.
+
+---
+
+## Dynamic Features
+
+The dashboard includes:
+
+1.  **Dynamic Charts:** Update in real-time based on slicer inputs.
+2.  **Power Query Integration:** Automates data cleaning and transformation.
+3.  **KPI Table:** Highlights critical metrics at a glance.
+
+---
+
+## Next Steps for Extension
+
+Additional insights to enhance the dashboard:
+
+1.  **Return Analysis:** Investigate return rates by market or product category.
+2.  **Top and Bottom Customers:** Identify most and least profitable customers.
+3.  **Market Analysis:** Compare performance across different markets.
+4.  **Product Analysis:** Evaluate individual product contributions.
+
+---
+
+## Significance
+
+This dashboard empowers retail businesses to:
+
+-   Track performance through KPIs.
+-   Understand category, segment, and geographic trends.
+-   Make data-driven decisions to optimize operations.
+
+---
+
+## Visuals
+
+This repository includes:
+
+-   Visual examples for each solved problem statement.
+-   Snapshots of the final dashboard with all components.
+
 
 
